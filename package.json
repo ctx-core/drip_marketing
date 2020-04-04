@@ -32,7 +32,7 @@
 		"@ctx-core/env": "^8.3.17",
 		"@ctx-core/error": "^5.1.70",
 		"@ctx-core/logger": "^3.1.14",
-		"@ctx-core/object": "^8.0.4"
+		"@ctx-core/object": "^8.0.5"
 	},
 	"devDependencies": {
 		"typescript": "^3.8.3"
