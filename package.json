@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "3.1.59",
+	"version": "3.1.60",
 	"description": "ctx-core drip_marketing",
 	"type": "module",
 	"main": "lib.js",
@@ -30,10 +30,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/env": "^8.3.28",
-		"@ctx-core/error": "^5.1.77",
-		"@ctx-core/logger": "^3.1.15",
-		"@ctx-core/object": "^8.0.11"
+		"@ctx-core/env": "^8.3.29",
+		"@ctx-core/error": "^5.1.78",
+		"@ctx-core/logger": "^3.1.16",
+		"@ctx-core/object": "^8.0.12"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.3"
