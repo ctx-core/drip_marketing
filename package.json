@@ -2,9 +2,9 @@
 	"name": "@ctx-core/drip_marketing",
 	"version": "3.1.72",
 	"description": "ctx-core drip_marketing",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
