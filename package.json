@@ -2,6 +2,20 @@
 	"name": "@ctx-core/drip_marketing",
 	"version": "3.1.98",
 	"description": "ctx-core drip_marketing",
+	"keywords": [
+		"ctx-core",
+		"drip_marketing"
+	],
+	"homepage": "https://github.com/ctx-core/drip_marketing#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/drip_marketing/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/drip_marketing/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,33 +23,19 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/drip_marketing/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"drip_marketing"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/drip_marketing/issues"
-	},
-	"homepage": "https://github.com/ctx-core/drip_marketing#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/env": "^8.3.66",
-		"@ctx-core/error": "^5.1.109",
-		"@ctx-core/object": "^10.0.4"
+		"@ctx-core/env": "workspace:*",
+		"@ctx-core/error": "workspace:*",
+		"@ctx-core/object": "workspace:*"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "86206e7c987b61c739083b1b0168a056c78bdfbc"
 }
