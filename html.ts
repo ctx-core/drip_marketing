@@ -1,9 +1,9 @@
 import { clone } from '@ctx-core/object'
-import { throw__missing_argument } from '@ctx-core/error'
-export function _script__drip(...a1__opt) {
-	const opts = clone(...a1__opt)
+import { error_ctx_type, throw_missing_argument } from '@ctx-core/error'
+export function _drip_script(...opt_a1) {
+	const opts = clone(...opt_a1) as _drip_script_opts_type
 	const DRIP_ID = opts.DRIP_ID || process.env.DRIP_ID
-	if (!DRIP_ID) throw__missing_argument(opts, { key: 'process.env.DRIP_ID' })
+	if (!DRIP_ID) throw_missing_argument(opts, { key: 'process.env.DRIP_ID' } as error_ctx_type)
 return `
 <script type="text/javascript">
 if (typeof window._dcq === 'undefined') {
@@ -20,4 +20,8 @@ if (typeof window._dcq === 'undefined') {
 	})();			 
 }
 </script>`.trim()
+}
+export const _drip__script = _drip_script
+export type _drip_script_opts_type = error_ctx_type & {
+	DRIP_ID: string
 }
