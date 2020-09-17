@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/drip_marketing",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ctx-core drip_marketing",
   "keywords": [
     "ctx-core",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "tsc -b",
+    "compile": "./node_modules/.bin/tsc -b",
     "exec": "$@",
     "prepublishOnly": "npm run compile"
   },
