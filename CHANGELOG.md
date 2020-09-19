@@ -1,5 +1,18 @@
 # @ctx-core/drip_marketing
 
+## 5.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/env@9.0.0
+  - @ctx-core/error@7.0.0
+  - @ctx-core/object@12.0.0
+
 ## 4.0.1
 
 ### Patch Changes
