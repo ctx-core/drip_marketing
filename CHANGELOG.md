@@ -1,5 +1,15 @@
 # @ctx-core/drip_marketing
 
+## 5.0.1
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/env@9.0.1
+  - @ctx-core/error@7.0.1
+  - @ctx-core/object@12.0.1
+
 ## 5.0.0
 
 ### Major Changes
