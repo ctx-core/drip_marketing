@@ -1,41 +1,40 @@
 {
-  "name": "@ctx-core/drip_marketing",
-  "version": "5.0.0",
-  "description": "ctx-core drip_marketing",
-  "keywords": [
-    "ctx-core",
-    "drip_marketing"
-  ],
-  "homepage": "https://github.com/ctx-core/drip_marketing#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/drip_marketing/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/drip_marketing/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/env": "workspace:*",
-    "@ctx-core/error": "workspace:*",
-    "@ctx-core/object": "workspace:*"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "86206e7c987b61c739083b1b0168a056c78bdfbc"
+	"name": "@ctx-core/drip_marketing",
+	"version": "5.0.0",
+	"description": "ctx-core drip_marketing",
+	"keywords": [
+		"ctx-core",
+		"drip_marketing"
+	],
+	"homepage": "https://github.com/ctx-core/drip_marketing#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/drip_marketing/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/drip_marketing/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/env": "workspace:*",
+		"@ctx-core/error": "workspace:*",
+		"@ctx-core/object": "workspace:*"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
