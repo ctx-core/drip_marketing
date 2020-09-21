@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 5.0.3
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.3
+  - @ctx-core/env@9.0.3
+  - @ctx-core/error@7.0.3
+
 ## 5.0.2
 
 ### Patch Changes
