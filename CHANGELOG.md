@@ -1,5 +1,18 @@
 # @ctx-core/drip_marketing
 
+## 5.0.40
+
+### Patch Changes
+
+- interface instead of type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.4
+  - @ctx-core/error@7.1.6
+  - @ctx-core/env@9.1.6
+
 ## 5.0.39
 
 ### Patch Changes
