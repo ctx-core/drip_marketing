@@ -4,7 +4,7 @@ export function _drip_script(...opt_a1) {
 	const opts = clone(...opt_a1) as _drip_script_opts_type
 	const DRIP_ID = opts.DRIP_ID || process.env.DRIP_ID
 	if (!DRIP_ID) throw_missing_argument(opts, { key: 'process.env.DRIP_ID' } as error_ctx_type)
-return `
+	return `
 <script type="text/javascript">
 if (typeof window._dcq === 'undefined') {
 	var _dcq = _dcq || [];
@@ -21,7 +21,9 @@ if (typeof window._dcq === 'undefined') {
 }
 </script>`.trim()
 }
-export const _drip__script = _drip_script
-export type _drip_script_opts_type = error_ctx_type & {
-	DRIP_ID: string
+export interface _drip_script_opts_type extends error_ctx_type {
+	DRIP_ID:string
+}
+export {
+	_drip_script as _drip__script
 }
