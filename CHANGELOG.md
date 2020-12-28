@@ -1,5 +1,11 @@
 # @ctx-core/drip_marketing
 
+## 5.1.0
+
+### Minor Changes
+
+- push\_\_drip=>push_drip
+
 ## 5.0.47
 
 ### Patch Changes
