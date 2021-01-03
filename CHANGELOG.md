@@ -1,5 +1,11 @@
 # @ctx-core/drip_marketing
 
+## 5.1.11
+
+### Patch Changes
+
+- remove @ctx-core/env dependency
+
 ## 5.1.10
 
 ### Patch Changes
