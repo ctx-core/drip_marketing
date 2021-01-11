@@ -1,5 +1,12 @@
 # @ctx-core/drip_marketing
 
+## 5.1.13
+
+### Patch Changes
+
+- @ctx-core/object@16.0.3
+- @ctx-core/error@7.1.22
+
 ## 5.1.12
 
 ### Patch Changes
