@@ -1,5 +1,17 @@
 # @ctx-core/drip_marketing
 
+## 6.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/error@8.1.0
+  - @ctx-core/object@17.6.0
+
 ## 6.0.37
 
 ### Patch Changes
