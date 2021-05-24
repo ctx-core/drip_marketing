@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 6.2.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/error@8.2.1
+  - @ctx-core/object@18.1.1
+
 ## 6.2.0
 
 ### Minor Changes
