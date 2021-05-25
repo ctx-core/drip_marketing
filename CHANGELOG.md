@@ -1,5 +1,17 @@
 # @ctx-core/drip_marketing
 
+## 6.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/error@8.3.0
+  - @ctx-core/object@18.2.0
+
 ## 6.2.1
 
 ### Patch Changes
