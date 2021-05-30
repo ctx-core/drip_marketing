@@ -1,7 +1,7 @@
 // declare const window
-export function push_drip(...arg_a1:object[]) {
+export function push_drip(...arg_a:object[]) {
 	if (typeof window._dcq !== 'undefined') {
-		window._dcq.push(...arg_a1)
+		window._dcq.push(...arg_a)
 	}
 }
 declare global {
