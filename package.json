@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "7.0.0",
+	"version": "7.0.1",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -27,8 +27,8 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/error": "workspace:^9.0.0",
-		"@ctx-core/object": "workspace:^19.0.3"
+		"@ctx-core/error": "workspace:^9.0.1",
+		"@ctx-core/object": "workspace:^19.0.4"
 	},
 	"devDependencies": {
 		"typescript": "^4.3.2"
