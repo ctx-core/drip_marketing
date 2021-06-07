@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 7.0.4
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/error@9.0.4
+  - @ctx-core/object@19.1.3
+
 ## 7.0.3
 
 ### Patch Changes
