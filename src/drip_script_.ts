@@ -1,7 +1,7 @@
 import { clone } from '@ctx-core/object'
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
-export function drip_script_(...param_a1:Partial<_drip_script_param_I>[]) {
-	const param:_drip_script_param_I = clone(...param_a1)
+export function drip_script_(...param_a:Partial<_drip_script_param_I>[]) {
+	const param:_drip_script_param_I = clone(...param_a)
 	const DRIP_ID = param.DRIP_ID || process.env.DRIP_ID
 	if (!DRIP_ID) throw_missing_argument(param, { key: 'process.env.DRIP_ID' } as error_ctx_I)
 	return `

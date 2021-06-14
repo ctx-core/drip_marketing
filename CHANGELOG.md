@@ -1,5 +1,17 @@
 # @ctx-core/drip_marketing
 
+## 8.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.0.0
+  - @ctx-core/object@20.0.0
+
 ## 7.0.7
 
 ### Patch Changes
