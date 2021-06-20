@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 8.0.3
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.0.3
+  - @ctx-core/object@20.0.4
+
 ## 8.0.2
 
 ### Patch Changes
