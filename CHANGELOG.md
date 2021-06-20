@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 8.0.5
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.0.5
+  - @ctx-core/object@20.0.6
+
 ## 8.0.4
 
 ### Patch Changes
