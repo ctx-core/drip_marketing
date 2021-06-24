@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 8.0.9
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.1.1
+  - @ctx-core/object@20.1.1
+
 ## 8.0.8
 
 ### Patch Changes
