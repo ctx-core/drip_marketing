@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 8.0.13
+
+### Patch Changes
+
+- dist directory
+- Updated dependencies [undefined]
+  - @ctx-core/error@10.1.5
+  - @ctx-core/object@20.2.2
+
 ## 8.0.12
 
 ### Patch Changes
