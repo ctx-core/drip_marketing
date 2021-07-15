@@ -1,5 +1,5 @@
 // declare const window
-export function push_drip(...arg_a:object[]) {
+export function push_drip(...arg_a:object[]):void {
 	if (typeof window._dcq !== 'undefined') {
 		window._dcq.push(...arg_a)
 	}
