@@ -1,5 +1,17 @@
 # @ctx-core/drip_marketing
 
+## 9.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.0
+  - @ctx-core/object@21.0.0
+
 ## 8.0.18
 
 ### Patch Changes
