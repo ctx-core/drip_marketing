@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.4
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.4
+  - @ctx-core/object@21.0.3
+
 ## 9.0.3
 
 ### Patch Changes
