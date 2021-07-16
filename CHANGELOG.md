@@ -1,5 +1,32 @@
 # @ctx-core/drip_marketing
 
+## 9.0.7
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.6
+  - @ctx-core/object@21.0.5
+
+## 9.0.6
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.5
+  - @ctx-core/object@21.0.4
+
+## 9.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.5
+  - @ctx-core/object@21.0.4
+
 ## 9.0.4
 
 ### Patch Changes
