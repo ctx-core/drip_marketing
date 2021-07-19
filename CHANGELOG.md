@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.14
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.13
+  - @ctx-core/object@21.0.12
+
 ## 9.0.13
 
 ### Patch Changes
