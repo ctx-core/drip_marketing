@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.16
+
+### Patch Changes
+
+- typescript: ^4.3.5 -> ^4.4.2
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.15
+  - @ctx-core/object@21.0.17
+
 ## 9.0.15
 
 ### Patch Changes
