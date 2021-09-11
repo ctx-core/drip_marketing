@@ -37,7 +37,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/error": "workspace:^11.0.16",
-		"@ctx-core/object": "workspace:^21.0.19",
+		"@ctx-core/object": "workspace:^21.0.20",
 		"esm": "^3.2.25"
 	},
 	"devDependencies": {
