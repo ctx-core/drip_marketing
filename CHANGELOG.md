@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.0.28
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/error@11.1.8
+
 ## 9.0.27
 
 ### Patch Changes
