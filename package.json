@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "9.0.32",
+	"version": "9.0.33",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -20,20 +20,22 @@
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
-			"types": "./src/index.ts"
+			"types": "./dist/index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile": "npm run compile_source && npm run compile_declaration",
+		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/error": "workspace:^11.1.12",
-		"@ctx-core/object": "workspace:^22.0.3"
+		"@ctx-core/error": "workspace:^11.1.13",
+		"@ctx-core/object": "workspace:^22.0.4"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
