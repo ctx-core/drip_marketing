@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "9.0.29",
+	"version": "9.0.30",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -32,8 +32,8 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/error": "workspace:^11.1.9",
-		"@ctx-core/object": "workspace:^22.0.0"
+		"@ctx-core/error": "workspace:^11.1.10",
+		"@ctx-core/object": "workspace:^22.0.1"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
@@ -44,5 +44,6 @@
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
-	}
+	},
+	"svelte": "./dist/index.js"
 }
