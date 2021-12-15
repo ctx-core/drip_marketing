@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.32
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/error@11.1.12
+  - @ctx-core/object@22.0.3
+
 ## 9.0.31
 
 ### Patch Changes
