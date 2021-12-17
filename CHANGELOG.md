@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.35
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/error@11.1.15
+  - @ctx-core/object@22.0.6
+
 ## 9.0.34
 
 ### Patch Changes
