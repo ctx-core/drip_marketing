@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.37
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/error@11.1.17
+  - @ctx-core/object@22.0.8
+
 ## 9.0.36
 
 ### Patch Changes
