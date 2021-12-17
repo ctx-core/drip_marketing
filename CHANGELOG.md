@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.36
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/error@11.1.16
+  - @ctx-core/object@22.0.7
+
 ## 9.0.35
 
 ### Patch Changes
