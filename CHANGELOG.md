@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.0.38
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/error@11.1.18
+
 ## 9.0.37
 
 ### Patch Changes
