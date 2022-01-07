@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "9.0.39",
+	"version": "9.0.40",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/error": "workspace:^11.1.21",
-		"@ctx-core/object": "workspace:^22.0.10"
+		"@ctx-core/error": "workspace:^11.1.22",
+		"@ctx-core/object": "workspace:^22.0.11"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.125",
+		"@swc/core": "^1.2.127",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
