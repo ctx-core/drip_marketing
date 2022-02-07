@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.0.42
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/error@11.3.1
+
 ## 9.0.41
 
 ### Patch Changes
