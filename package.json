@@ -35,7 +35,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/error": "workspace:^11.3.1",
+		"@ctx-core/error": "workspace:^11.4.0",
 		"@ctx-core/object": "workspace:*"
 	},
 	"devDependencies": {
