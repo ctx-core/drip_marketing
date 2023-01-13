@@ -1,5 +1,11 @@
 # @ctx-core/drip_marketing
 
+## 9.0.63
+
+### Patch Changes
+
+- rimraf: ^4.0.1 -> ^4.0.4
+
 ## 9.0.62
 
 ### Patch Changes
