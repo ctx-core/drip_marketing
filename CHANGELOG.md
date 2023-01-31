@@ -1,5 +1,14 @@
 # @ctx-core/drip_marketing
 
+## 9.0.66
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/error@11.5.14
+  - @ctx-core/object@24.1.1
+
 ## 9.0.65
 
 ### Patch Changes
