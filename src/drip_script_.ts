@@ -1,9 +1,9 @@
-import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
+import { error_o_T, missing_argument__throw } from '@ctx-core/error'
 import { clone } from '@ctx-core/object'
 export function drip_script_(...param_a:Partial<_drip_script_param_I>[]):string {
 	const param:_drip_script_param_I = clone(...param_a)
 	const DRIP_ID = param.DRIP_ID || process.env.DRIP_ID
-	if (!DRIP_ID) throw_missing_argument(param, { key: 'process.env.DRIP_ID' } as error_ctx_I)
+	if (!DRIP_ID) missing_argument__throw(param, { key: 'process.env.DRIP_ID' } as error_o_T)
 	return `
 <script type="text/javascript">
 if (typeof window._dcq === 'undefined') {
@@ -21,7 +21,7 @@ if (typeof window._dcq === 'undefined') {
 }
 </script>`.trim()
 }
-export interface _drip_script_param_I extends error_ctx_I {
+export interface _drip_script_param_I extends error_o_T {
 	DRIP_ID:string
 }
 export {
