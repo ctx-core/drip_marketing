@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.1.0
+
+### Minor Changes
+
+- drip\__script_: aliased by drip*script*
+- extract _.js & _.d.ts into directories
+- drip\_\_push: aliased by push_drip
+
 ## 9.0.72
 
 ### Patch Changes
