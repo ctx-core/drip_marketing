@@ -1,10 +1,11 @@
+import { import_meta_env_ } from '@ctx-core/env'
 import { missing_argument__throw } from '@ctx-core/error'
 import { clone } from '@ctx-core/object'
 export function drip__script_(...param_a) {
 	const param = clone(...param_a)
-	const DRIP_ID = param.DRIP_ID || process.env.DRIP_ID
+	const DRIP_ID = param.DRIP_ID || import_meta_env_().DRIP_ID
 	if (!DRIP_ID) missing_argument__throw(param, {
-		key: 'process.env.DRIP_ID'
+		key: 'import.meta.env.DRIP_ID'
 	})
 	//language=html
 	return `

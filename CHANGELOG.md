@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.1.11
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 9.1.10
 
 ### Patch Changes
