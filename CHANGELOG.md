@@ -1,5 +1,15 @@
 # @ctx-core/drip_marketing
 
+## 9.1.74
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/env@17.2.83
+  - @ctx-core/error@12.3.26
+  - @ctx-core/object@27.4.23
+
 ## 9.1.73
 
 ### Patch Changes
