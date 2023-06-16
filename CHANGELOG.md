@@ -1,5 +1,11 @@
 # @ctx-core/drip_marketing
 
+## 9.1.101
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.111 -> ^17.2.112
+
 ## 9.1.100
 
 ### Patch Changes
