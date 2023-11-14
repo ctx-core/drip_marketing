@@ -1,5 +1,15 @@
 # @ctx-core/drip_marketing
 
+## 9.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/env@17.4.2
+  - @ctx-core/error@12.4.2
+  - @ctx-core/object@30.1.2
+
 ## 9.2.1
 
 ### Patch Changes
