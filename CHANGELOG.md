@@ -1,5 +1,16 @@
 # @ctx-core/drip_marketing
 
+## 9.2.9
+
+### Patch Changes
+
+- tsx: ^4.1.2 -> ^4.1.3
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@12.4.8
+  - @ctx-core/object@30.4.1
+  - @ctx-core/env@17.4.9
+
 ## 9.2.8
 
 ### Patch Changes
