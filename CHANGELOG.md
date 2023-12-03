@@ -1,5 +1,16 @@
 # @ctx-core/drip_marketing
 
+## 9.2.38
+
+### Patch Changes
+
+- @ctx-core/object: ^31.1.15 -> ^31.1.16
+- @ctx-core/error: ^12.4.33 -> ^12.4.34
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.4.39
+
 ## 9.2.37
 
 ### Patch Changes
