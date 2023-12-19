@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "9.2.59",
+	"version": "9.2.60",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -40,8 +40,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/env": "^17.4.60",
-		"@ctx-core/error": "^12.4.54",
-		"@ctx-core/object": "^31.1.36"
+		"ctx-core": "^5.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

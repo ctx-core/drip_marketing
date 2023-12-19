@@ -1,4 +1,4 @@
-import type { error_o_T } from '@ctx-core/error'
+import type { error_o_T } from 'ctx-core/error'
 export declare function drip__script_(...param_a:Partial<drip__script__param_T>[]):string
 export interface drip__script__param_T extends error_o_T {
 	DRIP_ID:string;
