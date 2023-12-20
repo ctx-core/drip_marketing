@@ -1,4 +1,4 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { missing_argument__throw } from 'ctx-core/error'
 export function drip__script_(...param_a) {
 	const param = { ...param_a }
