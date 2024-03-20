@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.2.161
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 9.2.160
 
 ### Patch Changes
