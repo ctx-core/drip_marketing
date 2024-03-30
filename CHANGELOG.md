@@ -1,5 +1,11 @@
 # @ctx-core/drip_marketing
 
+## 9.2.164
+
+### Patch Changes
+
+- ctx-core: ^6.7.0 -> ^6.7.1
+
 ## 9.2.163
 
 ### Patch Changes
