@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/drip_marketing",
-	"version": "9.2.166",
+	"version": "9.2.167",
 	"description": "ctx-core drip_marketing",
 	"keywords": [
 		"ctx-core",
@@ -44,7 +44,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.8.1"
+		"ctx-core": "^6.8.2"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
