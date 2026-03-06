@@ -1,5 +1,13 @@
 # @ctx-core/drip_marketing
 
+## 9.2.212
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 9.2.211
 
 ### Patch Changes
